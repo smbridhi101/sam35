@@ -13,4 +13,7 @@ iv. You can run the project module by pressing F5 on your keyboard
     As the program runs, it displays the name, format and size of all the pictures in your directory tree and copies the pictures to the folder named 'Matched' in parent directory.
     
 Refrences:
-i.
+i. Python Image Library, [http://effbot.org/imagingbook/pil-index.htm], Accessed on 8-Nov-2016
+ii. Shutil- High Level Operations, [https://docs.python.org/2/library/shutil.html], Accessed on 10-Nov-2016
+iii. OS - Miscellaneous operating system interfaces, [https://docs.python.org/2/library/os.html], Accessed on 9-N0v-2016
+
