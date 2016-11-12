@@ -5,11 +5,20 @@ Motivation:
 This project was assigned to me as a part of my training task. I was suggested to use python as the programming language.
 
 Installation:
+Windows:
 The procedures to run this project are:
 i. First of all create a folder named 'Matched' in the parent directory.
-ii. In the terminal/command prompt go to the location of your destined folder
+ii. In the command prompt go to the location of your destined folder
 iii. Then type 'python filename.py' and then press enter
 As the program runs, it displays the information of the images that matches the criteria and then copies all these images to the 'Matched' in your parent directory.
+
+Linux:
+i. First of all create a folder named 'Matched' in the parent directory.
+ii. In the command prompt go to the location of your destined folder
+iii.Type chmod a+x filename.py to tell Linux that it is an executable program.
+iv.Type ./filename.py to run your program and press enter.
+As the program runs, it displays the information of the images that matches the criteria and then copies all these images to the 'Matched' in your parent directory.
+
     
 Refrences:
 i. Python Image Library, [http://effbot.org/imagingbook/pil-index.htm], Accessed on 8-Nov-2016
