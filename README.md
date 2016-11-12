@@ -6,11 +6,10 @@ This project was assigned to me as a part of my training task. I was suggested t
 
 Installation:
 The procedures to run this project are:
-i. Copy the code in python IDLE.
-ii. Save the project in any folder with numerous pictures. T
-iii. Create a new folder named 'Matched' in the parent directory.
-iv. You can run the project module by pressing F5 on your keyboard
-    As the program runs, it displays the name, format and size of the images that match the given criteria and copies those images to the folder named 'Matched' in parent directory.
+i. First of all create a folder named 'Matched' in the parent directory.
+ii. In the terminal/command prompt go to the location of your destined folder
+iii. Then type 'python filename.py' and then press enter
+As the program runs, it displays the information of the images that matches the criteria and then copies all these images to the 'Matched' in your parent directory.
     
 Refrences:
 i. Python Image Library, [http://effbot.org/imagingbook/pil-index.htm], Accessed on 8-Nov-2016
