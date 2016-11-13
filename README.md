@@ -20,7 +20,7 @@ The procedures to run this project are:<br>
 
     
 <H2>Refrences:</H2>
-- Python Image Library, [http://effbot.org/imagingbook/pil-index.htm], Accessed on 8-Nov-2016
-- Shutil- High Level Operations, [https://docs.python.org/2/library/shutil.html], Accessed on 10-Nov-2016
-- OS - Miscellaneous operating system interfaces, [https://docs.python.org/2/library/os.html], Accessed on 9-N0v-2016
+- <a href = "http://effbot.org/imagingbook/pil-index.htm"> Python Image Library</a>
+- <a href = "https://docs.python.org/2/library/shutil.html">Shutil- High Level Operations</a>
+- <a href = "https://docs.python.org/2/library/os.html">OS - Miscellaneous operating system interfaces</a>
 
