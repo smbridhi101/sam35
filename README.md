@@ -5,12 +5,11 @@ The project is a python based program that uses Python Image Library to display 
 This project was assigned to me as a part of my training task. I was suggested to use python as the programming language.
 
 <H2>Installation:</H2>
+The procedures to run this project are:<br>
 <H3>Windows:</H3>
-The procedures to run this project are:
 1. First of all create a folder named 'Matched' in the parent directory.
 2. In the command prompt go to the location of your destined folder
-3. Type ./filename.py to run your program and press enter.
-<BR>As the program runs, it displays the information of the images that matches the criteria and then copies all these images to the 'Matched' in your parent directory.
+3. Type 'python filename.py' to run your program and press enter.
 
 <H3>Linux:</H3>
 1. First of all create a folder named 'Matched' in the parent directory.
