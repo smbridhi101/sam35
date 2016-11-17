@@ -23,4 +23,5 @@ The procedures to run this project are:<br>
 - <a href = "http://effbot.org/imagingbook/pil-index.htm"> Python Image Library</a>
 - <a href = "https://docs.python.org/2/library/shutil.html">Shutil- High Level Operations</a>
 - <a href = "https://docs.python.org/2/library/os.html">OS - Miscellaneous operating system interfaces</a>
+- <a href = "http://marthall.github.io/blog/how-to-package-a-python-app/"> PyPI</a>
 
