@@ -7,9 +7,11 @@ This project was assigned to me as a part of my training task. I was suggested t
 <H2>Installation:</H2>
 The procedures to run this project are:<br>
 <H3>Windows:</H3>
-1. First of all create a folder named 'Matched' in the parent directory.
-2. In the command prompt go to the location of your destined folder
-3. Type 'python filename.py' to run your program and press enter.
+1. Go to the location of Python/Scripts from your command prompt
+1. Then you can download the script by "easy_install sam_img_script"
+1. After downloading the script you can go to your desired location from command prompt
+1. Type python sam_img_script.py and press enter
+1. Type python sam_img_script.py -d for details of the images or type sam_img_script.py -h for help
 
 <H3>Linux:</H3>
 1. First of all create a folder named 'Matched' in the parent directory.
@@ -24,4 +26,5 @@ The procedures to run this project are:<br>
 - <a href = "https://docs.python.org/2/library/shutil.html">Shutil- High Level Operations</a>
 - <a href = "https://docs.python.org/2/library/os.html">OS - Miscellaneous operating system interfaces</a>
 - <a href = "http://marthall.github.io/blog/how-to-package-a-python-app/"> PyPI</a>
+- <a href = "https://docs.python.org/2/howto/argparse.html">Argparse Tutorial </a>
 
