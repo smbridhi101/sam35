@@ -1,28 +1,28 @@
-from PIL import Image
-import os, shutil,argparse
+from PIL import Image                                               #imports "Image" class of PIL library
+import os, shutil,argparse                                          #imports OS, Shutil,and argparse library
 
-parser = argparse.ArgumentParser()
-parser.add_argument("-d","--details",help = "Include this to display information about matched images", action = "store_true")
+parser = argparse.ArgumentParser()                             
+parser.add_argument("-d","--details",help = "Include this to display information about matched images", action = "store_true") #adds argument and generate help message
 args = parser.parse_args()
 
-active_path = os.getcwd()                                                      #Gives path from where script is run
-count = 0                                                                      #Counts No. of images that match the criteria
-target_dir_path = active_path + '/Matched_Image'                           #Matched Images are kept in this folder
-if os.path.isdir(target_dir_path) == False:		                            	#If there is no such directory
- os.makedirs(target_dir_path)						                                       #Create directory with that name
+active_path = os.getcwd()                                           #Gives path from where script is run
+count = 0                                                           #Counts No. of images that match the criteria
+target_dir_path = active_path + '/Matched_Image'                    #Matched Images are kept in this folder
+if os.path.isdir(target_dir_path) == False:		                      	#If there is no such directory
+ os.makedirs(target_dir_path)						                          #Create directory with that name
 
-for root, dirs, files in os.walk(active_path, topdown=False):
+for root, dirs, files in os.walk(active_path, topdown=False):       #os-walk scans all the directories from bottom to up.
  for name in files:
   try:
-   path = os.path.join(root, name)
-   im = Image.open(path)
-   width,height=im.size
+   path = os.path.join(root, name)                                  #concatenates the root and name of the file and store it in path
+   im = Image.open(path)                                            #Passes the file in "Open" method of image class and stores the file in im variable
+   width,height=im.size                                             #im.size returns the size of the file. Eg. if  the image size is 100*600 it stores width = 100 and height = 600
    if width<1024 and height<768:
     if args.details: 
      print(name,'  ', path , im.format,"%dx%d" % im.size)
-    if shutil.copy2(path,target_dir_path):
-     count = count + 1
-  except IOError:
+    if shutil.copy2(path,target_dir_path):                         #the files with the matching criteia are then copied to a file named 'Matched' in the target directory
+     count = count + 1                                             #count returns the number of file that matches the criteria
+  except IOError:                                                  #exception handling code
    pass
 print("\n %d  Images copied to Matched_Image folder" %count)
 input_key = input("Press any key")
